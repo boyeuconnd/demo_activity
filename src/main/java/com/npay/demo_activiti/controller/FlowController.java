@@ -5,6 +5,10 @@ public class FlowController {
         System.out.println(num1+num2);
     }
 
+    public static String doSumAndReturnResult(int num1, int num2, int num3){
+        return String.valueOf(num1+num2+num3);
+    }
+
     public static String doMulti(int num1, int num2){
         return String.valueOf(num1*num2);
     }

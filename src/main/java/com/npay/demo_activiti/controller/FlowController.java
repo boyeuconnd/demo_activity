@@ -5,4 +5,8 @@ public class FlowController {
         System.out.println(num1+num2);
     }
 
+    public static String doMulti(int num1, int num2){
+        return String.valueOf(num1*num2);
+    }
+
 }

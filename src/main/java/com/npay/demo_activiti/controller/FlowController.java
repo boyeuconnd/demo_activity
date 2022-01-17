@@ -1,7 +1,8 @@
 package com.npay.demo_activiti.controller;
 
-import org.springframework.beans.factory.annotation.Autowired;
-
 public class FlowController {
+    public static void doSum(int num1, int num2){
+        System.out.println(num1+num2);
+    }
 
 }
